@@ -1,4 +1,7 @@
-#
+
+<div align="center">
+<h1>Django Project</h1>
+<br/> </div><br/>
 <div align="center">
 <h1>Welcome to the <a href="https://www.financepeer.com/">FINANCEPEER</a> Assessment Repository</h1>
 <br/> </div>
