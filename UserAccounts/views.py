@@ -28,7 +28,6 @@ def login_page(request):
         if request.method == 'POST':
             email = request.POST.get('email')
             password = request.POST.get('password')
-            print(email, password)
             is_user = Accounts.objects.get(email=email)
             if is_user.password == password:
                 request.session['login'] = True
@@ -46,12 +45,10 @@ def register_page(request):
         name = request.POST.get('name')
         email = request.POST.get('email')
         password = request.POST.get('password')
-        print(name, email, password)
         is_email_exists = Accounts.objects.filter(email=email).first()
         if is_email_exists is None:
             user = Accounts(name=name, email=email, password=password)
             user.save()
-            print(user)
             messages.success(request, 'Account created Successfully! Please Login.')
             return redirect('login')
         else:
@@ -62,11 +59,11 @@ def register_page(request):
 
 def upload_json(request):
     if request.method == 'POST':
-        # json_file_obj = request.FILES['json_file']
-        # json_data = json.load(json_file_obj)
-        # for each in json_data:
-        #     obj = JsonData(userid=each['userId'], title=each['title'], body=each['body'])
-        #     obj.save()
+        json_file_obj = request.FILES['json_file']
+        json_data = json.load(json_file_obj)
+        for each in json_data:
+            obj = JsonData(userid=each['userId'], title=each['title'], body=each['body'])
+            obj.save()
         messages.success(request, 'Json file uploaded successfully!')
         return redirect('home')
     return render(request, 'upload_json.html')
