@@ -10,6 +10,17 @@ If you are trying to use this project for the first time, you can get up and run
 ## Project Images:
 
 
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/home.png" width="800" />
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/account_create.png" width="800" /> 
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/user_login.png" width="800" />
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/home1.png" width="800" />
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/upload_json.png" width="800" />
+    <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/home2.png" width="800" />
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/json_parsed.png" width="800" />
+  <img src="https://github.com/Ajayvardhanreddy/financepeer_assignment/blob/main/UserAccounts/static/images/password_reset.png" width="800" />
+
+
+
 ## Requirements 
 
 |                          Technology                          |      Version       |
