@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 We can now start a Django project within our `finanancepeer_assessment` directory. This will create a child directory of the same name to hold the code itself, and will create a management script within the current directory. Make sure to add the dot at the end of the command so that this is set up correctly:
 ```bash
-django-admin.py startproject finanancepeer_assessment .
+django-admin startproject finanancepeer_assessment .
 ```
 > **NOTE:** Dot (.) at the end of the above command makes the current directory as Project directory.
 
